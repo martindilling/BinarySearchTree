@@ -1,0 +1,26 @@
+{
+    "name": "martindilling/binary-tree",
+    "description": "Binary trees.",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Martin Dilling-Hansen",
+            "email": "martindilling@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BinaryTree\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BinaryTree\\Tests\\": "tests/"
+        }
+    }
+}
