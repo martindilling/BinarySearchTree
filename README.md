@@ -8,7 +8,7 @@ Here are two examples from the tests.
 
 An unbalanced search tree:
 
-````
+```php
 $tree = new BinarySearchTree();
 
 $node1 = new Node(1, 'First');
@@ -54,11 +54,11 @@ $tree->insert($node5);
 //  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5
 
 $this->assertFalse($tree->isBalanced());
-````
+```
 
 And a balanced search tree:
 
-````
+```php
 $tree = new BinarySearchTree();
 
 $node1 = new Node(1, 'First');
@@ -92,7 +92,7 @@ $tree->insert($node3);
 //  1   3   .   .
 
 $this->assertTrue($tree->isBalanced());
-````
+```
 
 ## Tests
 
